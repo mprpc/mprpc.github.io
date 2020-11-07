@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>CJRP Freedom Roleplay</title>
+    <title>MPRPC FiveM</title>
     <link rel="Icon" type="Icon" href="Icon.png"</link>
     <meta name="description" content="FiveM Server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="CJRP.png" />
     <meta name="title" content="CJRP Freedom Roleplay">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
     <!-- Place favicon.ico in the root directory -->
   
   <script type="text/javascript">
@@ -19,18 +20,18 @@
 </script>
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="owl.carousel.min.css">
-    <link rel="stylesheet" href="magnific-popup.css">
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="themify-icons.css">
-    <link rel="stylesheet" href="nice-select.css">
-    <link rel="stylesheet" href="flaticon.css">
-    <link rel="stylesheet" href="gijgo.css">
-    <link rel="stylesheet" href="animate.min.css">
-    <link rel="stylesheet" href="slick.css">
-    <link rel="stylesheet" href="slicknav.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -59,7 +60,7 @@
                                         <li><a class="active" href="home">Home</a></li>
                                         <li><a href="updates">Updates</a></li>
                                         <li><a href="contact">Contact</a></li>
-                                        <li><a href="fivem:82.18.68.243:30120">Join <i class="ti-angle-down"></i></a>
+                                        <li><a href="fivem://connect/54.37.245.139:30340">Join <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="join">Join link 1</a></li>
                                                 <li><a href="https://joincjrp.github.io/">Join link 2</a></li>
@@ -78,7 +79,7 @@
                         </div>
                         <div class="col-lg-2 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-end">
-                                <a href="https://discord.io/cjrp" class="say_hi">Join Our Discord</a>
+                                <a href="https://discord.io/MPRC" class="say_hi">Join Our Discord</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -120,13 +121,13 @@
                                         <div class="quote">
                                             <img src="img/testmonial/quote.svg" alt="">
                                         </div>
-                                        <p>We are a great server on FiveM With <br> Loads of different Addon cars and more! </p>
+                                        <p> <br>  </p>
                                         <div class="testmonial_author">
                                             <div class="thumb">
                                                     <img src="img/testmonial/thumb.png" alt="">
                                             </div>
-                                            <h3>Callum Robertson</h3>
-                                            <span>Server Owner</span>
+                                            <h3></h3>
+                                            <span></span>
                                         </div>
                                     </div>
                         </div>
@@ -194,7 +195,7 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="socail_links">
                             <ul>
-                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="https://twitter.com/CJRPFiveM"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="https://twitter.com/MPRPC"> <i class="fa fa-twitter"></i> </a></li>
                             </ul>
                         </div>
                     </div>
@@ -237,6 +238,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/firebase.js"></script>
+
 
     <!--contact js-->
     <script src="js/contact.js"></script>
@@ -246,6 +250,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+
 </body>
 
 </html>
